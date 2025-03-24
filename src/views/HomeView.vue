@@ -7,7 +7,7 @@
     </div>
 </template>
 <script setup>
-import bannerimage from "/image/banner.jpg";
+const bannerimage = "/image/banner.jpg";
 </script>
 <style scoped>
 .bannerBox{width: 80%; height: 27rem; margin: auto; margin-top: 2rem;}

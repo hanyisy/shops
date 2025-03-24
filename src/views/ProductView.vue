@@ -27,9 +27,9 @@
 
 <script setup>
 import { ref } from "vue";
-import laptopImage from "/image/note.jpg";
-import phoneImage from "/image/ph.png";
-import headphoneImage from "/image/tab.jpg";
+const laptopImage = "/image/note.jpg";
+const phoneImage = "/image/ph.png";
+const headphoneImage = "/image/tab.jpg";
 
 
 // 부모 컴포넌트에서 `addToCart` 함수 받아오기
