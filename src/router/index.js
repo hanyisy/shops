@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 // import { createRouter, createWebHashHistory } from 'vue-router'; 리엑트와 비슷 이거 쓸거면 밑에 있는 라우터 함수에 히스토리 수정해야해요
 import HomeView from '@/views/HomeView.vue';
 import ProductView from '@/views/ProductView.vue';
@@ -15,7 +15,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 });
 
