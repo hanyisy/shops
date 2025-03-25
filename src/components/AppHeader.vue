@@ -5,7 +5,7 @@
             <router-link to="/">Home</router-link>
             <router-link to="/product">Product</router-link>
             <router-link to="/cart">장바구니</router-link>
-            <router-link to="/checkout">결제</router-link>
+            <router-link to="/checkout">Event</router-link>
             <router-link to="/contact">문의</router-link>
         </nav>
     </div>

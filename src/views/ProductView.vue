@@ -39,10 +39,6 @@ const products = ref([
   { id: 3, name: "태블릿", price: 150000, image: "/shops/image/tab.jpg", quantity: 1, isSelected: false },
 ]);
 
-// 상품 선택 토글 함수
-// const toggleSelection = (product) => {
-//   product.isSelected = !product.isSelected;
-// };
 
 // 수량 조절 함수
 const increaseQuantity = (product) => product.quantity++;

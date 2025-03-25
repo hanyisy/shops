@@ -6,7 +6,7 @@
 </template>
 <script setup>
 const gocon = ()=>{
-    alert("아직 문의가능 기한이 아닙니다. (◞‸◟；)")
+    alert("아직 문의가능 기한이 아닙니다. (◞‸◟；)");
 }
 </script>
 <style scoped>

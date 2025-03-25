@@ -1,22 +1,18 @@
 <template>
     <div>
-        <h3>결제를 진행하세요</h3>
-        <button @click="gorec()" class="butt">결제하러 가기!</button>
+        <h3>Event</h3>
+        <div class="slidebox">
+            <div class="slider">
+                <img src="/shops/image/banner2.jpg" alt="banner" class="slide-image" />
+            </div>
+        </div>
     </div>
 </template>
 <script setup>
-const gorec = ()=>{
-    alert("아직 구매가능 기한이 아닙니다. (◞‸◟；)")
-}
 </script>
 <style scoped>
 h3{text-align: center;}
-button{
-    margin: auto; width: 10rem; height: 2rem; display: block;
-    background-color: #2894a7; color: white;
-    border: none; border-radius: 10px; cursor: pointer;
-}
-button:hover{
-    background-color: #215188;
-}
+.slidebox{width: 75%; height: 20rem; background-color: antiquewhite; margin: auto; position: relative; overflow: hidden;}
+.slider{width: 100%; height: 100%; position: absolute; left: 0; display: flex; justify-content: left; transition: 0.3s;}
+.slide-image{width: 100%; height: 100%; object-fit: cover; position: relative;}
 </style>
