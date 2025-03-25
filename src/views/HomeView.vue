@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="bannerBox">
-            <img src="/image/banner.jpg" alt="banner" class="banner-image" />
+            <img src="../image/banner.jpg" alt="banner" class="banner-image" />
         </div>
         <div class="gopro"><router-link to="/product">원하시는 상품을 찾아보세요 →</router-link></div>
     </div>
