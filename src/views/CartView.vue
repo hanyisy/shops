@@ -26,6 +26,7 @@
           🗑️ 삭제
         </button>
       </div>
+      <button @click="gorec()" class="butt">결제하러 가기!</button>
     </div>
   </div>
 </template>
@@ -33,6 +34,9 @@
 <script setup>
 // ✅ 부모 컴포넌트에서 받은 props 정의
 defineProps(["cart", "removeFromCart"]);
+const gorec = ()=>{
+    alert("아직 구매가능 기한이 아닙니다. (◞‸◟；)")
+}
 </script>
 
 <style scoped>
@@ -66,7 +70,7 @@ h2{text-align: center; margin-bottom: 2rem;}
   border-radius: 10px;
 }
 .cart-item img {
-  width: 50px;
+  width: 90px;
   height: auto;
 }
 button {
@@ -76,5 +80,13 @@ button {
   padding: 5px;
   cursor: pointer;
   border-radius: 5px;
+}
+.butt{
+    margin: auto; width: 10rem; height: 2rem; display: block;
+    background-color: #2894a7; color: white;
+    border: none; border-radius: 10px; cursor: pointer;
+}
+.butt:hover{
+    background-color: #215188;
 }
 </style>

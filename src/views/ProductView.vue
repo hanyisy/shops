@@ -34,9 +34,9 @@ defineProps(["addToCart"]);
 
 // 상품 데이터
 const products = ref([
-  { id: 1, name: "노트북", price: 1200000, image: "../image/note.jpg", quantity: 1, isSelected: false },
-  { id: 2, name: "스마트폰", price: 800000, image: "../image/ph.png", quantity: 1, isSelected: false },
-  { id: 3, name: "태블릿", price: 150000, image: "../image/tab.jpg", quantity: 1, isSelected: false },
+  { id: 1, name: "노트북", price: 1200000, image: "/shops/image/note.jpg", quantity: 1, isSelected: false },
+  { id: 2, name: "스마트폰", price: 800000, image: "/shops/image/ph.png", quantity: 1, isSelected: false },
+  { id: 3, name: "태블릿", price: 150000, image: "/shops/image/tab.jpg", quantity: 1, isSelected: false },
 ]);
 
 // 상품 선택 토글 함수
